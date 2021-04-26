@@ -1,7 +1,9 @@
 # Podcaster created with Next
 
 ### Install dependencies
-    `cd react_nml/podcasternext`
+    ```
+        cd react_nml/podcasternext
+    ```
 
 - Typescript
     ```
