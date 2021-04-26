@@ -28,7 +28,7 @@
 
 @media (max-width: 720) {
     html {
-        font-size: 87.50%; // 15px
+        font-size: 87.50%; // 14px
     }
 }
 
@@ -37,8 +37,14 @@ body {
 }
 
 body, input, textarea, button {
-    font: 500, 1rem, sans-serif;
+    font: 500, 1rem, Inter, sans-serif;
     color: var(--gray-500);
+}
+
+h1, h2, h3, h5, h6 {
+    font-weight: 600;
+    font-family: Lexend, sans-serif;
+    color: var(--gray-800);
 }
 
 // rem is in relation to the root size (default: html {font-size: 16px;} )
